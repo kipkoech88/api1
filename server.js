@@ -1,5 +1,6 @@
 const express = require("express");
-const bodyParser = require("body-parser");
+const bodyParser = require("body-parser"); 
+const PORT = process.env.PORT || 3030;
 
 const app = express();
 
@@ -18,6 +19,6 @@ const sayHi = (req, res) => {
   
   app.get("/", sayHi);
 
-app.listen(5000, (req, res) => {
+app.listen(PORT, (req, res) => {
   console.log(`Server is running on port 5000.`);
 });
