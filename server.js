@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 const sayHi = (req, res) => {
     res.json({
         
-            "slackUsername":"Hosea kipkoech", 
+            "slackUsername":"Hosea kipngetich", 
             "backend":true, 
             "age":21, 
             "bio":"I am a Python Django Backend developer"
